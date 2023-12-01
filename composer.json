@@ -5,6 +5,7 @@
     "Wechat"
   ],
   "type": "library",
+  "license":"MIT",
   "require": {
     "doctrine/cache": "~1.3,<1.7",
     "guzzlehttp/guzzle": "~6.0"
