@@ -60,6 +60,7 @@ class Wechat extends WechatBase
                 $this->$name = $value;
             }
         }
+        $this->pay= new WechatPay($config);
         $this->setCacheComponent();
     }
 
